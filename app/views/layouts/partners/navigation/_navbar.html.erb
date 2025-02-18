@@ -1,4 +1,7 @@
 <li class="nav-item dropdown">
+  <li id="help" class="nav-item dropdown">
+     <%= link_to 'Need Help?', partners_help_path, class: 'nav-link bg-yellow-400 mx-2 font-bold rounded-2xl' %>
+  </li>
   <a class="nav-link" data-bs-toggle="dropdown" href="#">
     <%= current_user.email %>
     <i class="fa fa-caret-down"></i>
@@ -33,7 +36,7 @@
 
   </div>
 
-   <li id="help" class="nav-item dropdown">
+   <%# <li id="help" class="nav-item dropdown">
      <%= link_to 'Need Help?', partners_help_path, class: 'nav-link bg-yellow-400 mx-2 font-bold rounded-2xl' %>
-   </li>
+   <%# </li> %>
 </li>
